@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure-7%4-(2pb7y(cz4#2c503%2i1wo!d$7^*otgiw2afj&jxo7wlte
 DEBUG = False
 
 # SECURITY WARNING: Only for Heroku, DO NOT USE IN ACTUAL PRODUCTION
-ALLOWED_HOSTS = ['*'] 
+ALLOWED_HOSTS = ['tattvachandrika.com', 'www.tattvachandrika.com', 'localhost', '127.0.0.1', '62.72.30.52'] 
 
 
 # Application definition
