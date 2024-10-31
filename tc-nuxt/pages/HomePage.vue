@@ -60,7 +60,7 @@ export default {
       try {
         const token = localStorage.getItem("token"); // Retrieve the token
         const response = await axios.post(
-          "https://tattvachandrika-magazine-119814d66a82.herokuapp.com/api/adminusers/logout/",
+          "https://tattvachandrika.com/api/adminusers/logout/",
           { token: token } // Send the token in the request body
         );
         

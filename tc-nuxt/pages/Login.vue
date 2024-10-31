@@ -285,7 +285,7 @@ export default {
     async login() {
       try {
         const response = await axios.post(
-          "https://tattvachandrika-magazine-119814d66a82.herokuapp.com/api/adminusers/login/",
+          "https://tattvachandrika.com/api/adminusers/login/",
           this.loginData
         );
         localStorage.setItem('token', response.data.token);
@@ -300,7 +300,7 @@ export default {
         // Only proceed if validation is successful
         try {
           const response = await axios.post(
-            "https://tattvachandrika-magazine-119814d66a82.herokuapp.com/api/adminusers/signup/",
+            "https://tattvachandrika.com/api/adminusers/signup/",
             {
               username: this.signupData.username,
               email: this.signupData.email,

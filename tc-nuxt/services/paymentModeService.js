@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiUrl = 'https://tattvachandrika-magazine-119814d66a82.herokuapp.com/api/payment-modes/';
+const apiUrl = 'https://tattvachandrika.com/api/payment-modes/';
 
 // Function to get the stored token
 const getToken = () => {

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiUrl = "https://tattvachandrika-magazine-119814d66a82.herokuapp.com/api/subscription-modes/"; // Adjust the URL to your API endpoint
+const apiUrl = "https://tattvachandrika.com/api/subscription-modes/"; // Adjust the URL to your API endpoint
 
 // Function to get the stored token
 const getToken = () => {

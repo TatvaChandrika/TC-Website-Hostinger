@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-const apiUrl = 'https://tattvachandrika-magazine-119814d66a82.herokuapp.com/api/subscription-plans/';
-const languageApiUrl = 'https://tattvachandrika-magazine-119814d66a82.herokuapp.com/api/subscription-languages/';
-const modeApiUrl = 'https://tattvachandrika-magazine-119814d66a82.herokuapp.com/api/subscription-modes/';
+const apiUrl = 'https://tattvachandrika.com/api/subscription-plans/';
+const languageApiUrl = 'https://tattvachandrika.com/api/subscription-languages/';
+const modeApiUrl = 'https://tattvachandrika.com/api/subscription-modes/';
 
 // Function to get the stored token
 const getToken = () => {
